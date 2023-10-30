@@ -1,4 +1,11 @@
-FROM ubuntu:latest
+FROM openjdk:8
 LABEL authors="sebas"
 
-ENTRYPOINT ["top", "-b"]
+WORKDIR /usrapp/bin
+
+ENV PORT 6000
+
+COPY /target/classes /usrapp/bin/classes
+COPY /target/dependency /usrapp/bin/dependency
+
+CMD ["java","-cp","./classes:./dependency/*","SparkWebServer"]
