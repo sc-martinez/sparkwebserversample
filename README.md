@@ -15,7 +15,7 @@ Este repositorio contiene el resultado de la aplicación de técnicas de contene
 ## Documentación de la solución
 
 ### Vista de Arquitectura
-![ARQ.JPG](Resources/aws.JPG)
+![ARQ.JPG](Resources/aws.jpg)
 
 En esta vista se exponen los componentes principales de la solución. 
 - Browser : Navegador genérico que realiza peticiones al servidor Web
