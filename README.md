@@ -64,7 +64,7 @@ Documento que especifica las dependencias para el micro-contenedor docker. En es
 
 #### Encontrado en DockerFile
 
-```
+```dockerfile
 
 FROM openjdk:8
 LABEL authors="sebas"
@@ -116,7 +116,7 @@ docker-compose up -d
 
 #### Encontrado en DockerFile
 
-```
+```yml
 
 version: '2'
 
